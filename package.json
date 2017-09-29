@@ -1,6 +1,6 @@
 {
   "name": "gatsby-remark-external-links",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Automatically adds the target and rel attributes to external links in markdown.",
   "main": "index.js",
   "author": "Jimmy Longley <jimmylongley@gmail.com>",
@@ -10,6 +10,11 @@
     "gatsby-plugin",
     "remark"
   ],
+  "homepage": "https://github.com/JLongley/gatsby-remark-external-links#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JLongley/gatsby-remark-external-links.git"
+  },
   "dependencies": {
     "babel-runtime": "^6.26.0",
     "is-relative-url": "^2.0.0",
