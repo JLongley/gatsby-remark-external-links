@@ -1,4 +1,5 @@
 const visit = require(`unist-util-visit`)
+const find = require(`unist-util-find`)
 const isRelativeUrl = require(`is-relative-url`)
 
 const defaultTarget = "_blank"
@@ -6,8 +7,8 @@ const defaultRel = "nofollow noopener noreferrer"
 
 module.exports = ({ markdownAST }, options = {}) => {
 
-  const visitor = link => {
-    if(!isRelativeUrl(link.url)) {
+  const visitor = (link, url) => {
+    if(!isRelativeUrl(url)) {
       link.data = {
         hProperties: {}
       }
@@ -18,7 +19,13 @@ module.exports = ({ markdownAST }, options = {}) => {
     }
   }
 
+  visit(markdownAST, `linkReference`, link => {
+    const def = find(markdownAST, { type: 'definition', identifier: link.identifier });
+    if (def && def.url)
+      visitor(link, def.url);
+  })
+
   visit(markdownAST, `link`, link => {
-    visitor(link)
+    visitor(link, link.url)
   })
 }
