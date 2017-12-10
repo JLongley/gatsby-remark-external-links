@@ -1,0 +1,444 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with absolute link 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "position": Position {
+                "end": Object {
+                  "column": 6,
+                  "line": 1,
+                  "offset": 5,
+                },
+                "indent": Array [],
+                "start": Object {
+                  "column": 2,
+                  "line": 1,
+                  "offset": 1,
+                },
+              },
+              "type": "text",
+              "value": "Test",
+            },
+          ],
+          "data": Object {
+            "hProperties": Object {
+              "rel": "nofollow noopener noreferrer",
+              "target": "_blank",
+            },
+          },
+          "position": Position {
+            "end": Object {
+              "column": 33,
+              "line": 1,
+              "offset": 32,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 1,
+              "line": 1,
+              "offset": 0,
+            },
+          },
+          "title": null,
+          "type": "link",
+          "url": "https://example.com/path",
+        },
+      ],
+      "position": Position {
+        "end": Object {
+          "column": 33,
+          "line": 1,
+          "offset": 32,
+        },
+        "indent": Array [],
+        "start": Object {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "paragraph",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 33,
+      "line": 1,
+      "offset": 32,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`with reference links 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "position": Position {
+                "end": Object {
+                  "column": 10,
+                  "line": 1,
+                  "offset": 9,
+                },
+                "indent": Array [],
+                "start": Object {
+                  "column": 2,
+                  "line": 1,
+                  "offset": 1,
+                },
+              },
+              "type": "text",
+              "value": "Absolute",
+            },
+          ],
+          "data": Object {
+            "hProperties": Object {
+              "rel": "nofollow noopener noreferrer",
+              "target": "_blank",
+            },
+          },
+          "identifier": "absolute",
+          "position": Position {
+            "end": Object {
+              "column": 13,
+              "line": 1,
+              "offset": 12,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 1,
+              "line": 1,
+              "offset": 0,
+            },
+          },
+          "referenceType": "collapsed",
+          "type": "linkReference",
+        },
+        Object {
+          "position": Position {
+            "end": Object {
+              "column": 14,
+              "line": 1,
+              "offset": 13,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 13,
+              "line": 1,
+              "offset": 12,
+            },
+          },
+          "type": "text",
+          "value": " ",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "position": Position {
+                "end": Object {
+                  "column": 23,
+                  "line": 1,
+                  "offset": 22,
+                },
+                "indent": Array [],
+                "start": Object {
+                  "column": 15,
+                  "line": 1,
+                  "offset": 14,
+                },
+              },
+              "type": "text",
+              "value": "Absolute",
+            },
+          ],
+          "data": Object {
+            "hProperties": Object {
+              "rel": "nofollow noopener noreferrer",
+              "target": "_blank",
+            },
+          },
+          "identifier": "absolute",
+          "position": Position {
+            "end": Object {
+              "column": 26,
+              "line": 1,
+              "offset": 25,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 14,
+              "line": 1,
+              "offset": 13,
+            },
+          },
+          "referenceType": "collapsed",
+          "type": "linkReference",
+        },
+        Object {
+          "position": Position {
+            "end": Object {
+              "column": 27,
+              "line": 1,
+              "offset": 26,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 26,
+              "line": 1,
+              "offset": 25,
+            },
+          },
+          "type": "text",
+          "value": " ",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "position": Position {
+                "end": Object {
+                  "column": 36,
+                  "line": 1,
+                  "offset": 35,
+                },
+                "indent": Array [],
+                "start": Object {
+                  "column": 28,
+                  "line": 1,
+                  "offset": 27,
+                },
+              },
+              "type": "text",
+              "value": "Relative",
+            },
+          ],
+          "identifier": "relative",
+          "position": Position {
+            "end": Object {
+              "column": 39,
+              "line": 1,
+              "offset": 38,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 27,
+              "line": 1,
+              "offset": 26,
+            },
+          },
+          "referenceType": "collapsed",
+          "type": "linkReference",
+        },
+        Object {
+          "position": Position {
+            "end": Object {
+              "column": 40,
+              "line": 1,
+              "offset": 39,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 39,
+              "line": 1,
+              "offset": 38,
+            },
+          },
+          "type": "text",
+          "value": " ",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "position": Position {
+                "end": Object {
+                  "column": 51,
+                  "line": 1,
+                  "offset": 50,
+                },
+                "indent": Array [],
+                "start": Object {
+                  "column": 41,
+                  "line": 1,
+                  "offset": 40,
+                },
+              },
+              "type": "text",
+              "value": "Not a link",
+            },
+          ],
+          "identifier": "not a link",
+          "position": Position {
+            "end": Object {
+              "column": 52,
+              "line": 1,
+              "offset": 51,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 40,
+              "line": 1,
+              "offset": 39,
+            },
+          },
+          "referenceType": "shortcut",
+          "type": "linkReference",
+        },
+      ],
+      "position": Position {
+        "end": Object {
+          "column": 52,
+          "line": 1,
+          "offset": 51,
+        },
+        "indent": Array [],
+        "start": Object {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "paragraph",
+    },
+    Object {
+      "identifier": "absolute",
+      "position": Position {
+        "end": Object {
+          "column": 37,
+          "line": 3,
+          "offset": 89,
+        },
+        "indent": Array [],
+        "start": Object {
+          "column": 1,
+          "line": 3,
+          "offset": 53,
+        },
+      },
+      "title": null,
+      "type": "definition",
+      "url": "https://example.com/path",
+    },
+    Object {
+      "identifier": "relative",
+      "position": Position {
+        "end": Object {
+          "column": 18,
+          "line": 4,
+          "offset": 107,
+        },
+        "indent": Array [],
+        "start": Object {
+          "column": 1,
+          "line": 4,
+          "offset": 90,
+        },
+      },
+      "title": null,
+      "type": "definition",
+      "url": "/path",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 18,
+      "line": 4,
+      "offset": 107,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`with relative link 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "position": Position {
+                "end": Object {
+                  "column": 6,
+                  "line": 1,
+                  "offset": 5,
+                },
+                "indent": Array [],
+                "start": Object {
+                  "column": 2,
+                  "line": 1,
+                  "offset": 1,
+                },
+              },
+              "type": "text",
+              "value": "Test",
+            },
+          ],
+          "position": Position {
+            "end": Object {
+              "column": 14,
+              "line": 1,
+              "offset": 13,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 1,
+              "line": 1,
+              "offset": 0,
+            },
+          },
+          "title": null,
+          "type": "link",
+          "url": "/path",
+        },
+      ],
+      "position": Position {
+        "end": Object {
+          "column": 14,
+          "line": 1,
+          "offset": 13,
+        },
+        "indent": Array [],
+        "start": Object {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "paragraph",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 14,
+      "line": 1,
+      "offset": 13,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
