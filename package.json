@@ -1,6 +1,6 @@
 {
   "name": "gatsby-remark-external-links",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Automatically adds the target and rel attributes to external links in markdown.",
   "main": "index.js",
   "author": "Jimmy Longley <jimmylongley@gmail.com>",
