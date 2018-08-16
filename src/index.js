@@ -1,6 +1,6 @@
 const visit = require(`unist-util-visit`)
 const find = require(`unist-util-find`)
-const isRelativeUrl = require(`is-relative-url`)
+const isUrlExternal = require(`is-url-external`)
 
 const defaultTarget = "_blank"
 const defaultRel = "nofollow noopener noreferrer"
@@ -8,13 +8,13 @@ const defaultRel = "nofollow noopener noreferrer"
 module.exports = ({ markdownAST }, options = {}) => {
 
   const visitor = (link, url) => {
-    if(!isRelativeUrl(url)) {
+    if (isUrlExternal(url) || url.startsWith('mailto:')) {
       link.data = {
         hProperties: {}
       }
-      if(options.target !== null)
+      if (options.target !== null)
         link.data.hProperties.target = options.target || defaultTarget;
-      if(options.rel !== null)
+      if (options.rel !== null)
         link.data.hProperties.rel = options.rel || defaultRel;
     }
   }
