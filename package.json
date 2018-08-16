@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "babel-runtime": "^6.26.0",
-    "is-relative-url": "^2.0.0",
+    "is-url-external": "^1.0.3",
     "unist-util-find": "^1.0.1",
     "unist-util-visit": "^1.1.3"
   },
