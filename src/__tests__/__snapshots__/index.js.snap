@@ -27,7 +27,11 @@ Object {
           ],
           "data": Object {
             "hProperties": Object {
-              "rel": "nofollow noopener noreferrer",
+              "rel": Array [
+                "nofollow",
+                "noopener",
+                "noreferrer",
+              ],
               "target": "_blank",
             },
           },
@@ -106,12 +110,6 @@ Object {
               "value": "Absolute",
             },
           ],
-          "data": Object {
-            "hProperties": Object {
-              "rel": "nofollow noopener noreferrer",
-              "target": "_blank",
-            },
-          },
           "identifier": "absolute",
           "position": Position {
             "end": Object {
@@ -166,12 +164,6 @@ Object {
               "value": "Absolute",
             },
           ],
-          "data": Object {
-            "hProperties": Object {
-              "rel": "nofollow noopener noreferrer",
-              "target": "_blank",
-            },
-          },
           "identifier": "absolute",
           "position": Position {
             "end": Object {
