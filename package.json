@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "babel-runtime": "^6.26.0",
-    "remark-external-links": "^3.0.0"
+    "remark-external-links": "^5.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
