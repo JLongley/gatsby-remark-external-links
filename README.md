@@ -29,7 +29,7 @@ yarn add gatsby-remark-external-links
       },
 ```
 
-3. Restart gastby.
+3. Restart gatsby.
 
 ## API
 
@@ -41,7 +41,7 @@ Type: `string`
 Default: `_blank`
 
 Specifies where to display the linked URL.
-The value should be on of : `_self`, `_blank`, `_parent`, `_top`
+The value should be one of : `_self`, `_blank`, `_parent`, `_top`
 
 *You can specify `null` to not add the `target` attribute to your links*
 
